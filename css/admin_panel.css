@@ -1,0 +1,33 @@
+/*Global variable*/
+:root {
+    --color-black: #000;
+    --color-white: #fff;
+}
+
+
+@font-face {
+    font-family: headliner;
+    src: url(../fonts/headliner.otf)
+}
+
+@font-face {
+    font-family: engine;
+    src: url(../fonts/engine.otf);
+}
+
+body {
+    background: #eee;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+}
+
+.group__image {
+    width: 200px;
+    height: 200px;
+}
+.group__form--body {
+    display: block;
+}
